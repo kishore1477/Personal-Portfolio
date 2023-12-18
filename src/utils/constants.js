@@ -205,7 +205,7 @@ export const Projectss = [
   },
   {
     img: customCalendar,
-    title: "Custom Calendar Prototype",
+    title: "Custom Calendar Prototype (Only desktop view)",
     subTitle:
       `-Working on the prototype of the Scheduler functionality,
       -View Multiple Calendar of every user simultaneously.
