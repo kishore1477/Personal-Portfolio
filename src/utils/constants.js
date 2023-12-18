@@ -350,3 +350,41 @@ export const Projectss = [
   },
   
 ];
+export const otherProjects = [
+{
+  name:"Text Case Converter",
+  url:"https://kishore1477.github.io/text-case-contverter-react/",
+  gitUrl:"https://github.com/kishore1477/text-case-contverter-react"
+},
+{
+  name:"Form Validation",
+  url:"https://kishore1477.github.io/form-validation-using-js-regx/",
+  gitUrl:"https://github.com/kishore1477/form-validation-using-js-regx"
+},
+{
+  name:"Resume Generator",
+  url:"https://kishore1477.github.io/resume-generator/",
+  gitUrl:"https://github.com/kishore1477/resume-generator"
+},
+{
+  name:"Digital Clock",
+  url:"https://kishore1477.github.io/digital-clock/",
+  gitUrl:"https://github.com/kishore1477/digital-clock"
+},
+{
+  name:"Analog Clock",
+  url:"https://kishore1477.github.io/analog-clock/",
+  gitUrl:"https://github.com/kishore1477/analog-clock"
+},
+{
+  name:"Scientific Calculator",
+  url:"https://kishore1477.github.io/scientific-caculator-javascript/",
+  gitUrl:"https://github.com/kishore1477/scientific-caculator-javascript"
+},
+{
+  name:"Currency Contverter",
+  url:"https://kishore1477.github.io/currency-converter/",
+  gitUrl:"https://github.com/kishore1477/currency-converter"
+},
+
+]

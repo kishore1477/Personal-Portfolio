@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
-import { Grey, Projectss } from "../utils/constants";
+import { Grey, Projectss, otherProjects } from "../utils/constants";
 import GradientBox from "./GradientBox";
 import MotionLayout from "./MotionLayout";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -9,6 +9,11 @@ import GoogleIcon from "@mui/icons-material/Google";
 import AppleIcon from "@mui/icons-material/Apple";
 
 const Projects = () => {
+  const cellStyle = {
+    border: '1px solid #dddddd',
+    textAlign: 'left',
+    padding: '8px',
+  };
   return (
     <MotionLayout>
       <Stack pt={10} id="Projects">
@@ -119,6 +124,53 @@ const Projects = () => {
               </Stack>
             </MotionLayout>
           ))}
+        </Stack>
+        <Stack>
+        <Typography textAlign="center" variant="h4" my={4}>
+                  Other Projects
+                </Typography>
+        <table style={{ borderCollapse: 'collapse', width: '100%', color:"white" }}>
+  <thead>
+    <tr>
+      <th style={cellStyle}>S#</th>
+      <th style={cellStyle}>Name</th>
+      <th style={cellStyle}>Github</th>
+      <th style={cellStyle}>Demo</th>
+    </tr>
+   </thead>
+   <tbody>
+   {otherProjects?.map((p,i)=>{
+            return    <tr key={i}>
+            <td style={cellStyle}>{i+1}</td>
+            <td style={cellStyle}>{p?.name}</td>
+            <td style={cellStyle}>
+            <a
+ href={p.gitUrl}
+ target="_blank"
+ rel="noopener noreferrer"
+>
+            <GitHubIcon sx={{ fontSize: 20, color: "white" }} />
+
+</a>
+            </td>
+            <td style={cellStyle}>
+            <a
+ href={p.url}
+ target="_blank"
+ rel="noopener noreferrer"
+>
+            <LinkIcon sx={{ fontSize: 20, color: "white", cursor:"pointer" }} />
+            </a>
+            </td>
+          </tr>
+
+          })}
+    
+    
+    
+  </tbody>
+</table>
+         
         </Stack>
       </Stack>
     </MotionLayout>
