@@ -17,7 +17,7 @@ const Home = () => {
             Hi there, I'm <span style={{ color: "#d2b9f0" }}>Kishore Kumar </span>
           </Typography>
           <Typography fontSize={16} color={Grey}>
-          Full  Stack Developer | specialize in Frontend Web Development
+          Full  Stack Developer | Node Js, React Js, Django, MERN stack Developer 
           
           </Typography>
           <Box display="flex" gap={2} mt={2}>

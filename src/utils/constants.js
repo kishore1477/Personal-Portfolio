@@ -352,6 +352,11 @@ export const Projectss = [
 ];
 export const otherProjects = [
 {
+  name:"Chat Application",
+  url:"https://chat-gray-mu.vercel.app/",
+  gitUrl:"https://github.com/kishore1477/chat-app"
+},
+{
   name:"Text Case Converter",
   url:"https://kishore1477.github.io/text-case-contverter-react/",
   gitUrl:"https://github.com/kishore1477/text-case-contverter-react"
