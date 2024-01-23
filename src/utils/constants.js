@@ -237,7 +237,7 @@ export const Projectss = [
     img: restaurant,
     title: "Restaurant",
     subTitle:
-      "Chatty is a dynamic chat web application that allows users to connect and communicate in real-time. It offers a range of features such as secure login/register system, real-time chatting, emojis, profile information editing, and a customizable dark mode and light mode.",
+      "This is complete MERN stack application, in which i have developed authentication and authorization, where users can purchase their products,JWT, cart api also integrated.",
     tech: [
       {
         name: "react",
